@@ -1,0 +1,179 @@
+
+  .card {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,100%);
+  }
+  .errMsg{
+    color: #cc0000;
+    float:left;
+    font-size: 12px;
+  }
+  .errpassword{
+    color: #cc0000;
+    float:left;
+    font-size: 12px;
+    text-align: justify;
+  }
+  .mailtext{
+    width: 271px;
+    position: relative;
+    left: 190px;
+  
+  }
+  .passwordtext{
+    width: 271px;
+    position: relative;
+    left: 190px;
+  }
+  .submitbutton{
+    width: 279px;
+    margin-left: 34px;
+    margin-top: 15px;
+  }
+  .emaillabel{
+    margin-right: 145px;
+    font-style: oblique;
+    color: black;
+  }
+  .passwordlabel{
+    margin-right: 169px;
+    font-style: oblique;
+    color: black;
+  }
+  .heading{
+    margin-left: 24px;
+    font-style: oblique;
+    color: black;
+  }
+.Maincard{
+  border-radius: 23px;
+  position: relative;
+    bottom: 220px;
+}
+.admin-login{
+	float:left;
+	padding: 0;
+	position: relative;
+  display: table;
+  width: 100%;
+  min-height: 570px;
+	height: 100vh;
+  background: url('./Images/admin-login.jpg')no-repeat center center;
+  background-color: #0096db;
+	background-size: cover;
+}
+.admin-login:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.45);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.admin-login .content{
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	z-index: 3;
+  outline: none;
+  bottom: 45px;
+
+}
+.admin-login .content .details{
+	width: 67%;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+	padding: 20px;
+	box-shadow: 0 2px 15px rgba(118, 118, 118, 0.29);
+}
+.admin-login .content .details .left,
+.admin-login .content .details .right{
+	width: 50%;
+	display: inline-block;
+	padding:0 16px;
+}
+.admin-login .content .details .left img{
+	max-width: 79%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 41px;
+}
+.admin-login .content .details .left{
+	margin-top: 88px;
+	text-align: center;
+	position: relative;
+}
+.admin-login .content .details .left:after{
+	content: "";
+	width: 1px;
+	height: 80%;
+	background: #dcdcdc;
+	position: absolute;
+	top: -37px;
+	right: 24px;
+}
+.admin-login .content .details .left a{
+	display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.admin-login .content .details .right h1{
+  font-size: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.admin-login .content .details .right .form-field{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+	display: block;
+}
+.admin-login .content .details .right .form-field label{
+	float:left;
+	font-weight: normal;
+	margin-bottom: 7px;
+}
+.admin-login .content .details .right .form-field input[type="text"],
+.admin-login .content .details .right .form-field input[type="password"],
+.admin-login .content .details .right .form-field input[type="number"]{
+	width: 100%;
+	float: left;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #c8c8c8;
+	padding: 8px 16px;
+	color: #232323;
+}
+.admin-login .content .details .right .form-field button{
+  width: 94%;
+  margin-right: 17px;
+  margin-top: 20px;
+  padding: 7px 17px;
+  border: 0;
+  outline: none;
+  border-radius: 29px;
+  background: #0096db;
+  color: #fff;
+  text-transform: uppercase;
+}
+.admin-login .content .details .right .form-field button:hover{
+	background: #ff5d0d;
+}
+.container{
+     padding-right: 0PX;
+}
+
+.sweet-loading{
+  position: relative;
+  left:50% ;
+}
+
+h1{
+    color: greenyellow;
+    text-align:center
+}
